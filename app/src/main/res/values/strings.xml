@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ScoreBoard</string>
+    <string name="welcome_msg">Welcome to ScoreBoard</string>
+    <string name="welcome_btn">Press to Enter</string>
+    <string name="teamA">Team A</string>
+    <string name="score">0</string>
+    <string name="touchdown">Touchdown</string>
+    <string name="kickoff">Kickoff</string>
+    <string name="safety">Safety</string>
+    <string name="field_goal">Field Goal</string>
+    <string name="conversion">Conversion</string>
+    <string name="teamB">Team B</string>
+    <string name="reset">Reset</string>
+    <string name="miss">Miss Extra Point</string>
+</resources>
