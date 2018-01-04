@@ -20,13 +20,8 @@
             android:padding="16dp">
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:paddingBottom="16dp"
-                android:paddingTop="8dp"
-                android:text="@string/teamA"
-                android:textSize="16sp" />
+                style="@style/CustomTitleText"
+                android:text="@string/teamA" />
 
             <TextView
                 android:id="@+id/score_team_A"
@@ -39,90 +34,48 @@
 
             <Button
                 android:id="@+id/touchdown_team_A"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="16dp"
-                android:drawablePadding="10dp"
+                style="@style/CustomButtonStyle"
                 android:drawableStart="@drawable/ic_looks_6_24dp"
                 android:tag="TouchdownA"
-                android:text="@string/touchdown"
-                android:textAllCaps="true"
-                android:textSize="14sp" />
+                android:text="@string/touchdown" />
 
             <Button
                 android:id="@+id/kickoff_team_A"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="16dp"
-                android:drawablePadding="10dp"
+                style="@style/CustomButtonStyle"
                 android:drawableStart="@drawable/ic_looks_one_24dp"
                 android:tag="KickoffA"
                 android:text="@string/kickoff"
-                android:textAllCaps="true"
-                android:textSize="14sp"
                 android:visibility="gone" />
 
             <Button
                 android:id="@+id/conversion_team_A"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="16dp"
-                android:drawablePadding="10dp"
+                style="@style/CustomButtonStyle"
                 android:drawableStart="@drawable/ic_looks_two_24dp"
                 android:tag="ConversionA"
                 android:text="@string/conversion"
-                android:textAllCaps="true"
-                android:textSize="14sp"
                 android:visibility="gone" />
 
             <Button
                 android:id="@+id/miss_team_A"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="16dp"
-                android:drawablePadding="10dp"
+                style="@style/CustomButtonStyle"
                 android:drawableStart="@drawable/ic_exposure_zero_24dp"
                 android:tag="MissA"
                 android:text="@string/miss"
-                android:textAllCaps="true"
-                android:textSize="14sp"
                 android:visibility="gone" />
 
             <Button
                 android:id="@+id/field_goal_team_A"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="16dp"
-                android:drawablePadding="10dp"
+                style="@style/CustomButtonStyle"
                 android:drawableStart="@drawable/ic_looks_3_24dp"
                 android:tag="FieldGoalA"
-                android:text="@string/field_goal"
-                android:textAllCaps="true"
-                android:textSize="14sp" />
+                android:text="@string/field_goal" />
 
             <Button
                 android:id="@+id/safety_team_A"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="16dp"
-                android:drawablePadding="10dp"
+                style="@style/CustomButtonStyle"
                 android:drawableStart="@drawable/ic_looks_two_24dp"
                 android:tag="SafetyA"
-                android:text="@string/safety"
-                android:textAllCaps="true"
-                android:textSize="14sp" />
+                android:text="@string/safety" />
 
         </LinearLayout>
 
@@ -134,13 +87,8 @@
             android:padding="16dp">
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:paddingBottom="16dp"
-                android:paddingTop="8dp"
-                android:text="@string/teamB"
-                android:textSize="16sp" />
+                style="@style/CustomTitleText"
+                android:text="@string/teamB" />
 
             <TextView
                 android:id="@+id/score_team_B"
@@ -153,90 +101,48 @@
 
             <Button
                 android:id="@+id/touchdown_team_B"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="16dp"
-                android:drawablePadding="10dp"
+                style="@style/CustomButtonStyle"
                 android:drawableStart="@drawable/ic_looks_6_24dp"
                 android:tag="TouchdownB"
-                android:text="@string/touchdown"
-                android:textAllCaps="true"
-                android:textSize="14sp" />
+                android:text="@string/touchdown" />
 
             <Button
                 android:id="@+id/kickoff_team_B"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="16dp"
-                android:drawablePadding="10dp"
+                style="@style/CustomButtonStyle"
                 android:drawableStart="@drawable/ic_looks_one_24dp"
                 android:tag="KickoffB"
                 android:text="@string/kickoff"
-                android:textAllCaps="true"
-                android:textSize="14sp"
                 android:visibility="gone" />
 
             <Button
                 android:id="@+id/conversion_team_B"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="16dp"
-                android:drawablePadding="10dp"
+                style="@style/CustomButtonStyle"
                 android:drawableStart="@drawable/ic_looks_two_24dp"
                 android:tag="ConversionB"
                 android:text="@string/conversion"
-                android:textAllCaps="true"
-                android:textSize="14sp"
                 android:visibility="gone" />
 
             <Button
                 android:id="@+id/miss_team_B"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="16dp"
-                android:drawablePadding="10dp"
+                style="@style/CustomButtonStyle"
                 android:drawableStart="@drawable/ic_exposure_zero_24dp"
                 android:tag="MissB"
                 android:text="@string/miss"
-                android:textAllCaps="true"
-                android:textSize="14sp"
                 android:visibility="gone" />
 
             <Button
                 android:id="@+id/field_goal_team_B"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="16dp"
-                android:drawablePadding="10dp"
+                style="@style/CustomButtonStyle"
                 android:drawableStart="@drawable/ic_looks_3_24dp"
                 android:tag="FieldGoalB"
-                android:text="@string/field_goal"
-                android:textAllCaps="true"
-                android:textSize="14sp" />
+                android:text="@string/field_goal" />
 
             <Button
                 android:id="@+id/safety_team_B"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="16dp"
-                android:drawablePadding="10dp"
+                style="@style/CustomButtonStyle"
                 android:drawableStart="@drawable/ic_looks_two_24dp"
                 android:tag="SafetyB"
-                android:text="@string/safety"
-                android:textAllCaps="true"
-                android:textSize="14sp" />
+                android:text="@string/safety" />
 
         </LinearLayout>
 
