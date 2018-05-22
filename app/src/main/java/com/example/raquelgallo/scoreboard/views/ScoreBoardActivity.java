@@ -81,13 +81,21 @@ public class ScoreBoardActivity extends AppCompatActivity implements ScoreBoardC
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_score_board);
         ButterKnife.bind(this);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         if (savedInstanceState != null) {
             scoreA = savedInstanceState.getInt("scoreA");
             scoreB = savedInstanceState.getInt("scoreB");
+            updateScores(scoreA, scoreB);
         }
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         presenter = new ScoreBoardPresenter(this);
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putInt("scoreA", scoreA);
+        outState.putInt("scoreB", scoreB);
     }
 
     @Override
